@@ -1,0 +1,20 @@
+{
+  "name": "@vampaynani/pino-aws-s3",
+  "version": "1.0.0",
+  "description": "Pino transport to AWS S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pino",
+    "transport",
+    "aws"
+  ],
+  "author": "vampaynani",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.665.0",
+    "pino-abstract-transport": "^2.0.0"
+  }
+}
